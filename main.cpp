@@ -3,12 +3,11 @@
 #include "Classes/DurationLogger.h"
 #include "Classes/MessageStore.h"
 #include <cmath>
-#include <ctime>
 #include <tuple>
 
 int main() {
     // PARTE 1
-    /*DurationLogger dm("Main");
+    DurationLogger dm("Main");
     Message buff1[10];
     auto *buff2 = new Message[10];
 
@@ -22,7 +21,7 @@ int main() {
         for (int i = 0; i < 10; i++)
             buff2[i] = buff1[i];
     }
-    delete[] buff2;*/
+    delete[] buff2;
 
 
     //PARTE 2
