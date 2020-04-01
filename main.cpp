@@ -13,12 +13,12 @@ int main() {
         auto *buff2 = new Message[10];
 
         {
-            DurationLogger d("Buff1 copy");
+            DurationLogger d("Buff1 creation: copy + movement");
             for (auto &i : buff1)
                 i = Message((int) pow(2, 20));
         }
         {
-            DurationLogger d("Buff2 copy");
+            DurationLogger d("Buff2 by movement");
             for (int i = 0; i < 10; i++)
                 buff2[i] = buff1[i];
         }

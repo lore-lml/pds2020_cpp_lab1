@@ -2,7 +2,7 @@
 #include <tuple>
 #include "MessageStore.h"
 #include "DurationLogger.h"
-#define copy 0
+#define copy 1
 #define allocation_optimized 0
 
 MessageStore::MessageStore(int n) : n(n), dim(n), next(0) {
